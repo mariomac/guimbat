@@ -1,0 +1,21 @@
+[package]
+name = "guimbat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = { version = "0.13", features = ["advanced"] }
+numbat = "1.23.0"
+
+[package.metadata.bundle]
+name = "Guimbat"
+identifier = "com.guimbat.app"
+icon = ["assets/icon.icns"]
+version = "0.1.0"
+category = "Utility"
+short_description = "Numbat-powered calculator"
+long_description = "A terminal-style calculator powered by the Numbat expression language."
+copyright = ""
+
+[package.metadata.bundle.osx]
+NSHighResolutionCapable = true
