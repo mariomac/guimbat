@@ -2,6 +2,8 @@
 
 A terminal-style calculator powered by the [Numbat](https://numbat.dev) expression language, built with [iced](https://github.com/iced-rs/iced).
 
+![](capture.png)
+
 ## Building
 
 ```sh
